@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\JIEUN\Desktop\AI_BUMMY_01\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2543861689.index
+\Bummy_AI_Project\src\main\java

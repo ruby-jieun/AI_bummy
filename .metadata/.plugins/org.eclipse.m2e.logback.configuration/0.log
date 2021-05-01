@@ -1,0 +1,22 @@
+2021-05-01 10:27:11,183 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-01 10:41:48,861 [Worker-106: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.bummy:Bummy_AI_Project:0.0.1-SNAPSHOT @ C:\Users\JIEUN\Desktop\AI_BUMMY_01\Bummy_AI_Project\pom.xml.
+2021-05-01 10:42:04,035 [Worker-105: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.bummy:Bummy_AI_Project:0.0.1-SNAPSHOT @ C:\Users\JIEUN\Desktop\AI_BUMMY_01\Bummy_AI_Project\pom.xml.
+2021-05-01 13:33:43,363 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-01 13:35:03,023 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-01 13:35:03,024 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-01 13:35:03,029 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-01 13:35:03,042 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2021-05-01 13:35:03,077 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-01 13:35:03,077 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-01 13:35:03,077 [Worker-94: Launching Tomcat v8.5 Server at localhost] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JIEUN\Desktop\AI_BUMMY_01\Bummy_AI_Project\src\test\resources
+2021-05-01 13:37:52,356 [Worker-26: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.1/junit-platform-launcher-1.7.1.jar
+2021-05-01 13:37:52,782 [Worker-26: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.7.1/junit-platform-launcher-1.7.1.jar
+2021-05-01 13:46:13,266 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-01 13:46:13,266 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-01 13:46:13,268 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-01 13:46:13,268 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-01 13:46:13,271 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-01 13:46:13,271 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-01 13:46:13,271 [Worker-108: Launching BummyAiProjectApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JIEUN\Desktop\AI_BUMMY_01\Bummy_AI_Project\src\test\resources
+2021-05-01 13:52:13,444 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-01 14:54:41,515 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
