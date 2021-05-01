@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
 							    <div class="form-group form-primary">
-                                    <input type="text" name="user-id" class="form-control">
+                                    <input type="text" name="user_id" id="user_id" class="form-control">
                                     <span class="form-bar"></span>
                                     <label class="float-label">아이디</label>
                                 </div>
@@ -110,21 +110,21 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group form-primary">
-                                            <input type="password" name="password" class="form-control">
+                                            <input type="password" name="uesr_pw" id="user_pw" class="form-control">
                                             <span class="form-bar"></span>
                                             <label class="float-label">비밀번호</label>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group form-primary">
-                                          <input type="password" name="confirm-password" class="form-control">
+                                          <input type="password" name="user_pwc" id="user_pwc" class="form-control">
                                             <span class="form-bar"></span>
                                             <label class="float-label">비밀번호 확인</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group form-primary">
-                                    <input type="text" name="user-name" class="form-control">
+                                    <input type="text" name="user_name" id="user_name" class="form-control">
                                     <span class="form-bar"></span>
                                     <label class="float-label">이름</label>
                                 </div>
@@ -134,14 +134,14 @@
                                     <label class="float-label">휴대폰 번호</label>
 								</div>
 								<div class="form-group form-primary">
-                                  <input type="text" name="email" class="form-control">
+                                  <input type="text" name="user_email" id="user_email" class="form-control">
                                     <span class="form-bar"></span>
                                     <label class="float-label">이메일</label>
                                 </div>
 								<div class="form-group row">
                                   <label class="col-sm-2 col-form-label">소속</label>
                                       <div class="col-sm-10">
-                                          <select name="select" class="form-control">
+                                          <select name="user_belong" class="form-control" id="user_belong">
                                              <option value="opt1">회사, 학교, 기관선택</option>
                                              <option value="opt2">멀티캠퍼스 A반</option>
                                              <option value="opt3">멀티캠퍼스 B반</option>
@@ -154,8 +154,8 @@
 								  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</label>
 								  <div class="btn-group " role="group" data-toggle="tooltip" data-placement="top" title="참여자주최자" data-original-title=".btn-xlg">
 									  <div class="text-center">
-                                                                <button type="button" class="btn btn-primary btn-md waves-effect waves-light">참여자</button>
-                                                                <button type="button" class="btn btn-primary btn-md waves-effect waves-light">주최자</button>
+                                                                <button type="button" name="user_type" id="user_Ltype" value="L" class="btn btn-primary btn-md waves-effect waves-light">참여자</button>
+                                                                <button type="button" name="user_type" id="user_Ptype" value="N" class="btn btn-primary btn-md waves-effect waves-light">주최자</button>
 									  </div></div>
                                 
                                 </div>
@@ -261,7 +261,7 @@
                     </div>
 						  <div class="col-md-12"><br>
 
-                      <button type="button" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20" onClick="javascript_:location.href='login.html';" />회원가입 하기</button>
+                      <button type="button" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20" id="signup">회원가입 하기</button>
                         </div>
                                 <div class="row m-t-30"> </div>
                                 <hr/>

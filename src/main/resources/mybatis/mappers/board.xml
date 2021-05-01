@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="mapper.board">
+	
+	<select id="selectAllBoard" resultType="boardVO">
+		<![CDATA[
+			select level,
+				Board_articleNO,
+				Board_parentNO,
+				LPAD(' ', 4*(LEVEL-1)) || Board_title Board_title,
+				Board_content,
+				Board_Date,
+				Board_filename,
+				Board_id 
+				from board
+				start with Board_parentNO=0
+				connect by prior Board_articleNO=Board_parentNO
+				order siblings by Board_articleNO desc
+		]]>
+	</select>
+	
+	<insert id="insert" parameterType="java.util.Map">
+		<![CDATA[
+			insert into board (board_title, board_content, board_filename, board_id, board_parentNO) 
+			values (#{board_title},#{board_content},#{board_filename},#{board_id},#{board_parentNO})
+		]]>
+	</insert>
+	
+	<select id="selectArticle" resultType="boardVO" parameterType="int">
+		<![CDATA[
+			select * from board
+			where board_articleNO=#{board_articleNO}
+		]]>
+	</select>
+
+
+</mapper>
