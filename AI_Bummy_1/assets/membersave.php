@@ -2,10 +2,10 @@
    <meta charset="utf-8">
 <?php
  
-$host = 'localhost';
+$host = 'Bummy_34.233.254.189';
 $user = 'bummy';
 $pw = 'qjal';
-$dbName = 'Bummy_34.233.254.189';
+$dbName = 'user_info';
 $mysqli = new mysqli($user_id, $user_pw, $user_name, $user_phone, $user_email, $user_belong, $user_type);
  
  $user_id=$_POST['user_id'];
